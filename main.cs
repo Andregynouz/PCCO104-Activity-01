@@ -5,7 +5,8 @@ class Program {
     string fname = "Andre Robert";
     string Lname = "Lorenzo";
     int age = 19;
-    Console.WriteLine ("Hello!"+ " " + fname + " " + Lname + " " + age);
-    Console.WriteLine ($"Hello! {fname} {Lname} {age}" );
+    string yrandsec = "BSIT1A";
+    Console.WriteLine ("Hello!"+ " " + fname + " " + Lname + " " + age + " " + yrandsec );
+    Console.WriteLine ($"Hello! {fname} {Lname} {age} {yrandsec}" );
   }
 }
